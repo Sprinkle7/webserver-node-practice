@@ -19,9 +19,9 @@ app.use((req, res, next) => {
 });
 
 // Middleware
-app.use((req, res, next) => {
-  res.render('working.hbs');
-});
+// app.use((req, res, next) => {
+//   res.render('working.hbs');
+// });
 
 hbs.registerHelper('getCurrentYear', () => {
     return new Date().getFullYear();
