@@ -45,7 +45,7 @@ app.get('/about', (req,res) => {
 
 app.get('/bad', (req,res) => {
     res.send({
-      error: 'You are just fucking arround'
+      error: 'You are just in wrong page'
     });
 });
 
